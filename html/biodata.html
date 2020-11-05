@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Biodata</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Style the header */
+header {
+  background-color: dodgerblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: powderblue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color:  #EBF5FB;
+  color: black;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: dodgerblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+th {
+  text-align: right;
+}
+
+/* For Table */
+table {
+  border-spacing: 15px;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right:
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 50%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Biodata of Nabil Aiman</h2>
+</header>
+
+<section>
+  <nav style="font-family: helvetica"><b>
+    <ul>
+      <li><a href="homepage.html">HOMEPAGE</a></li>
+      <li><a href="biodata.html">BIODATA</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+    </ul>
+  </b></nav>
+  
+  <article>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="image/me.jpeg" alt="Myself" style="width:90%">
+  </div>
+  <div class="column">
+    <div style="padding:20px;"><b>
+
+<table class="left" style="width:100%; font-family:helvetica; font-size:150%;">
+  <tr>
+    <th>Name:</th>
+    <td>Muhammad Nabil Aiman bin Azhar</td>
+  </tr>
+  <tr>
+    <th>Age:</th>
+    <td>20</td>
+  </tr>
+    <tr>
+    <th>Date of Birth:</th>
+    <td>14 June 2000</td>
+  </tr>
+  <tr>
+    <th>Place of Birth:</th>
+    <td>Ipoh, Perak, Malaysia</td>
+  </tr>
+  <tr>
+    <th>Tel. No:</th>
+    <td>019 4972423</td>
+  </tr>
+  <tr>
+    <th>Citizenship:</th>
+    <td>Malaysia</td>
+  </tr>
+  <tr>
+    <th>Religion:</th>
+    <td>Islam</td>
+  </tr>
+  <tr>
+    <th>Name of Father:</th>
+    <td>Azhar bin Haron</td>
+  </tr>
+  <tr>
+    <th>Name of Mother:</th>
+    <td>Hayati binti Hassan</td>
+  </tr>
+  <tr>
+    <th>Number of Siblings:</th>
+    <td>3</td>
+  </tr>
+</table>
+
+</b></div>
+  </div>
+</div>
+
+  </article>
+</section>
+
+<footer>
+  <p style="font-size:150%; font-family:helvetica;">
+  
+For further information, email me <a href="mailto:m.nabil.aiman14@gmail.com">here</a>.
+<br>
+Or you can checkout my Twitter account <a href="https://twitter.com/LTheClover1" target="_blank" title="My Twitter account!">here</a>!
+
+</p>
+</footer>
+
+</body>
+</html>

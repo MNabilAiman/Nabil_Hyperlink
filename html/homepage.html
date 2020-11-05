@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Style the header */
+header {
+  background-color: dodgerblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: powderblue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color:  #EBF5FB;
+  color: black;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: dodgerblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>About Nabil Aiman</h2>
+</header>
+
+<section>
+  <nav style="font-family: helvetica"><b>
+    <ul>
+      <li><a href="homepage.html">HOMEPAGE</a></li>
+      <li><a href="biodata.html">BIODATA</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+    </ul>
+  </b></nav>
+  
+  <article>
+
+<div style="padding:60px;"><b>
+
+    <p style="font-family:helvetica; font-size:150%; text-align:center;">
+  A man who's ventures out on the vast world seeking the only things that no one find it interesting. 
+  While others occupied with the entertainment in front of their eyes, this man explored much more and learn from the experience.</p>
+
+  <p style="font-family:helvetica; font-size:150%; text-align:center;">
+  He, a curious soul, still searching the answer to his questions that always lingering inside his mind.
+  Although he always try to stay compose and calmed, the very inside of him have huge spaces that filled with various ambitious goals that he kept on striving.</p>
+
+  <p style="font-family:helvetica; font-size:150%; text-align:center;">
+  Though he's at his 20, there's more to learn about and get to know the very vast world that he live in.
+  This is his adventure.</p>
+
+</b></div>
+
+  </article>
+</section>
+
+<footer>
+  <br>
+</footer>
+
+</body>
+</html>
